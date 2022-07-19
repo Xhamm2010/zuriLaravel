@@ -15,7 +15,7 @@ use App\Http\Controllers\userController;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('users');
 });
 
 Route::get('users',[userController::class,'index']);
